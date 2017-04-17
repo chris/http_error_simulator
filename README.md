@@ -5,6 +5,9 @@ etc., this is one way to do it.
 e.g. set your hosts file to handle some domain, to re-route traffic to this,
 to simulate an error you're getting from a 3rd party API.
 
+You will want to customize the handler to return the status code and body
+that you want, etc.
+
 Run it like this (for it's default port 8000):
 
 ```
